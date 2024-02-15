@@ -136,6 +136,30 @@ nav a:hover {
   padding: 10px;
 }
 
+.buttona {
+  width: 160px;
+  border-radius: 20px;
+  height: 30px;
+  border: 1px solid #ccc;
+  background-color: #3498db;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.buttona:hover {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.achievement-item {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 20px;
+}
+
 button:hover {
   background-color: #f0f0f0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -175,14 +199,6 @@ button:hover {
 }
 
 .skill-item {
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  overflow: hidden;
-  padding: 20px;
-}
-
-.achievement-item {
   margin-bottom: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
