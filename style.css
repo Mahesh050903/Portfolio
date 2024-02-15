@@ -141,14 +141,14 @@ nav a:hover {
   border-radius: 20px;
   height: 30px;
   border: 1px solid #ccc;
-  background-color: #3498db;
+  background-color: #7896b5;
   overflow: hidden;
   transition: background-color 0.3s ease;
   margin-top: 10px;
 }
 
 .buttona:hover {
-  background-color: white;
+  background-color: rgb(42, 59, 110);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
