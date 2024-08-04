@@ -9,18 +9,18 @@
 
 <body>
   <header>
-    <img src="pfp.jpeg" alt="Your Name" width="150">
+    <img src="pfp.jpg" alt="Your Name" width="150">
     <h1>Mahesh D</h1>
     <p>Aspiring Data Scientist</p>
-    <a href="Resume Mahesh D.docx" download="Mahesh's Resume.pdf"><button class="buttona">Download Resume 
+    <a href="MaheshResume.pdf" download="MaheshResume.pdf" target="_blank"><button class="buttona">Download Resume 
     </button></a>
-    
   </header>
 
   <script src="script.js"></script>
 
   <nav>
     <a href="#about">About</a>
+    <a href="#experience">Experience</a>
     <a href="#education">Education</a>
     <a href="#skills">Skills</a>
     <a href="#portfolio">Projects</a>
@@ -35,6 +35,19 @@
         <p>Aspiring Data Scientist currently studying Bachelors of Technology in AI and ML at Alliance University, Bengaluru.</p>
       </div>
     </section>
+
+    <section id="experience" class="main-content">
+      <h2>Experience</h2>
+      <div class="experience-item">
+        <h3>Data Science Intern at Jesper Apps</h3>
+        <p>Developed models to classify the extracted text from the image using large language models.</p>
+      </div>
+      <div class="experience-item">
+        <h3>Machine Learning Intern at Feynn Labs</h3>
+        <p>Conducted market segmentation analyses utilizing advanced machine learning techniques to optimize target audience identification and marketing strategies.</p>
+      </div>
+    </section>
+    
     <section id="education" class="main-content">
       <h2>Education</h2>
       <div class="education-item">
@@ -46,46 +59,57 @@
     <section id="skills" class="main-content">
       <h2>Skills</h2>
       <div class="skill-item">
-        <h3>Programming Languages</h3>
+        <h3>Technologies</h3>
         <ul>
-          <li>Python</li>
-          <li>C Language</li>
-          <li>C++</li>
           <li>Java</li>
+          <li>Python</li>
+          <li>C++</li>
+          <li>C Language</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>MySQL</li>
         </ul>
       </div>
       <div class="skill-item">
         <h3>Data Science</h3>
         <ul>
           <li>Machine Learning</li>
-          <li>Data Analysis</li>
+          <li>Large Language Models (LLM)</li>
           <li>Natural Language Processing (NLP)</li>
           <li>Deep Learning</li>
           <li>NumPy</li>
           <li>Pandas</li>
+          <li>TensorFlow</li>
+          <li>Big Data</li>
+          <li>PowerBI</li>
         </ul>
       </div>
     </section>
 
-    
     <section id="portfolio" class="main-content">
       <h2>Projects</h2>
       <div class="portfolio-item">
-        <h3>Mobile Phone Performance Analysis</h3>
-        <p>Objective: The project aims to predict the performance of mobile phones based on their specifications using machine learning.</p>
-        <a href="https://github.com/Mahesh050903/Mobile-Phone-Performance-Analysis" target="_blank">View Project</a>
+        <h3>Sports Celebrity Image Classification </h3>
+        <p>Designed a sports celebrity image recognition system using Haar cascade files for face and eyes detection, coupled with Logistic Regression</p>
+        <a href="https://github.com/Mahesh050903/ImageClassification" target="_blank">View Project</a>
       </div>
 
       <div class="portfolio-item">
-        <h3>Tic Tac Toe with AI</h3>
-        <p>This is a Tic-Tac-Toe game where you can play against an AI that uses the Minimax algorithm to make strategic moves.</p>
-        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7106665352452837376?utm_source=share&utm_medium=member_desktop" target="_blank">View Project</a>
+        <h3>Construction Cost Estimator </h3>
+        <p>Developed a web-based property price predictor utilizing machine learning algorithms within a Flask framework, allowing users to input property features and receive accurate price estimations, enhancing decision-making processes in real estate transactions.</p>
+        <a href="https://github.com/Mahesh050903/ConstructionCostEstimator" target="_blank">View Project</a>
       </div>
 
       <div class="portfolio-item">
-        <h3>Banglore House pricing</h3>
-        <p>I developed a robust house price prediction model utilizing machine learning algorithms such as Linear Regression, Lasso Regression, and Decision Tree Regression. By employing GridSearchCV for hyperparameter tuning, the model achieved high accuracy in predicting house prices based on features like location, square footage, number of bathrooms, and bedrooms..</p>
+        <h3>Banglore House Pricing</h3>
+        <p>I developed a robust house price prediction model utilizing machine learning algorithms such as Linear Regression, Lasso Regression, and Decision Tree Regression. By employing GridSearchCV for hyperparameter tuning, the model achieved high accuracy in predicting house prices based on features like location, square footage, number of bathrooms, and bedrooms.</p>
         <a href="https://github.com/Mahesh050903/Banglore-house-pricing" target="_blank">View Project</a>
+      </div>
+
+      <div class="portfolio-item">
+        <h3>Visiting card recognition</h3>
+        <p>This is a web-based application designed to extract and organize information from images of visiting cards. The application leverages OCR to convert text from images into structured data, using a language model to format and present this data coherently</p>
+        <a href="https://github.com/Mahesh050903/VisitingCardRecognition" target="_blank">View Project</a>
       </div>
     </section>
 
@@ -123,13 +147,174 @@
         <p>Phone: <span id="phone">+91 9944819733</span></p>
         <p>
           <a href="https://www.linkedin.com/in/mahesh-d-877477243/" target="_blank">LinkedIn Profile</a> |
-          <a href="https://github.com/Mahesh050903">Github Profile</a>
+          <a href="https://github.com/Mahesh050903" target="_blank">Github Profile</a> |
+          <a href="https://leetcode.com/u/Mahesh59/" target="_blank">LeetCode Profile</a>
         </p>
       </div>
     </section>
   </div>
   <footer>
-  <p>&copy; 2024 Mahesh D. All rights reserved.</p>
-</footer>
+    <p>&copy; 2024 Mahesh D. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mahesh D's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <img src="pfp.jpg" alt="Your Name" width="150">
+    <h1>Mahesh D</h1>
+    <p>Aspiring Data Scientist</p>
+    <a href="MaheshResume.pdf" download="MaheshResume.pdf" target="_blank"><button class="buttona">Download Resume 
+    </button></a>
+  </header>
+
+  <script src="script.js"></script>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#portfolio">Projects</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  
+  <div class="container">
+    <section id="about" class="main-content">
+      <h2>About Me</h2>
+      <div class="about-item">
+        <p>Aspiring Data Scientist currently studying Bachelors of Technology in AI and ML at Alliance University, Bengaluru.</p>
+      </div>
+    </section>
+
+    <section id="experience" class="main-content">
+      <h2>Experience</h2>
+      <div class="experience-item">
+        <h3>Data Science Intern at Jesper Apps</h3>
+        <p>Developed models to classify the extracted text from the image using large language models.</p>
+      </div>
+      <div class="experience-item">
+        <h3>Machine Learning Intern at Feynn Labs</h3>
+        <p>Conducted market segmentation analyses utilizing advanced machine learning techniques to optimize target audience identification and marketing strategies.</p>
+      </div>
+    </section>
+    
+    <section id="education" class="main-content">
+      <h2>Education</h2>
+      <div class="education-item">
+        <p>College : Bachelors of Technology in AI and ML, Alliance University, Bengaluru</p>
+        <p>School : Holy Cross Matriculation Hr. Sec school — 12th, with a score of 85.1%</p>
+      </div>
+    </section>
+
+    <section id="skills" class="main-content">
+      <h2>Skills</h2>
+      <div class="skill-item">
+        <h3>Technologies</h3>
+        <ul>
+          <li>Java</li>
+          <li>Python</li>
+          <li>C++</li>
+          <li>C Language</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>MySQL</li>
+        </ul>
+      </div>
+      <div class="skill-item">
+        <h3>Data Science</h3>
+        <ul>
+          <li>Machine Learning</li>
+          <li>Large Language Models (LLM)</li>
+          <li>Natural Language Processing (NLP)</li>
+          <li>Deep Learning</li>
+          <li>NumPy</li>
+          <li>Pandas</li>
+          <li>TensorFlow</li>
+          <li>Big Data</li>
+          <li>PowerBI</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="portfolio" class="main-content">
+      <h2>Projects</h2>
+      <div class="portfolio-item">
+        <h3>Sports Celebrity Image Classification </h3>
+        <p>Designed a sports celebrity image recognition system using Haar cascade files for face and eyes detection, coupled with Logistic Regression</p>
+        <a href="https://github.com/Mahesh050903/ImageClassification" target="_blank">View Project</a>
+      </div>
+
+      <div class="portfolio-item">
+        <h3>Construction Cost Estimator </h3>
+        <p>Developed a web-based property price predictor utilizing machine learning algorithms within a Flask framework, allowing users to input property features and receive accurate price estimations, enhancing decision-making processes in real estate transactions.</p>
+        <a href="https://github.com/Mahesh050903/ConstructionCostEstimator" target="_blank">View Project</a>
+      </div>
+
+      <div class="portfolio-item">
+        <h3>Banglore House Pricing</h3>
+        <p>I developed a robust house price prediction model utilizing machine learning algorithms such as Linear Regression, Lasso Regression, and Decision Tree Regression. By employing GridSearchCV for hyperparameter tuning, the model achieved high accuracy in predicting house prices based on features like location, square footage, number of bathrooms, and bedrooms.</p>
+        <a href="https://github.com/Mahesh050903/Banglore-house-pricing" target="_blank">View Project</a>
+      </div>
+
+      <div class="portfolio-item">
+        <h3>Visiting card recognition</h3>
+        <p>This is a web-based application designed to extract and organize information from images of visiting cards. The application leverages OCR to convert text from images into structured data, using a language model to format and present this data coherently</p>
+        <a href="https://github.com/Mahesh050903/VisitingCardRecognition" target="_blank">View Project</a>
+      </div>
+    </section>
+
+    <section id="achievements" class="main-content">
+      <h2>Achievements</h2>
+      <br>
+      <div class="achievement-item">
+        <h3>Third place in Intra-College ‘Modelathon’ Contest</h3>
+        <p>Received third prize in the Intra-College ‘Modelathon’ Contest. Built a model namely “Mobile phone Performance Analysis” using Logistic Regression and received recognition for its innovative approach.</p>
+        <br>
+        <div class="image-container">
+          <br>
+          <img src="ml.jpeg" alt="Third Place Certificate">
+          <br>
+        </div>
+      </div>
+
+      <div class="achievement-item">
+        <h3>Third place in Intra-College ‘Crack The Code’ contest</h3>
+        <p>Recipient of the third prize in the C++ coding contest at the intra-university 'Crack the Code' competition, showcasing proficiency in algorithmic problem-solving and demonstrating strong coding skills</p>
+        <div class="image-container">
+          <br>
+          <img src="ctc.jpg" alt="Third Place Certificate">
+          <br>
+          <img src="ctc1.jpg" alt="Third Place Certificate">
+          <br>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="main-content">
+      <h2>Contact Me</h2>
+      <div class="contact-item">
+        <p>Email: <a href="mailto:mahesh.d.5903@gmail.com" target="_blank">mahesh.d.5903@gmail.com</a></p>
+        <p>Phone: <span id="phone">+91 9944819733</span></p>
+        <p>
+          <a href="https://www.linkedin.com/in/mahesh-d-877477243/" target="_blank">LinkedIn Profile</a> |
+          <a href="https://github.com/Mahesh050903" target="_blank">Github Profile</a> |
+          <a href="https://leetcode.com/u/Mahesh59/" target="_blank">LeetCode Profile</a>
+        </p>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2024 Mahesh D. All rights reserved.</p>
+  </footer>
 </body>
 </html>
