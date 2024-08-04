@@ -1,4 +1,3 @@
-
 body, h1, h2, h3, p {
   margin: 0;
   padding: 0;
@@ -57,28 +56,38 @@ nav a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+#contact, #about, #education, #skills, #portfolio, #achievements, #experience {
+  background-color: #e1f4ff;
+}
+
 #contact {
+  text-align: center;
+}
+
+#contact, #about, #education, #skills, #portfolio, #achievements, #experience {
   margin-bottom: 20px;
 }
 
-.portfolio-item {
+.contact-item, .about-item, .education-item, .skill-item, .portfolio-item, .achievement-item, .experience-item {
   margin-bottom: 20px;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 20px;
 }
 
-.portfolio-item h3 {
+.portfolio-item h3, .experience-item h3 {
   margin-bottom: 10px;
   font-size: 20px;
   color: #333;
 }
 
-.portfolio-item p {
+.portfolio-item p, .experience-item p {
   color: #666;
   margin-bottom: 15px;
 }
 
-.portfolio-item a {
+.portfolio-item a, .experience-item a {
   display: inline-block;
   background-color: #3498db;
   color: #fff;
@@ -88,7 +97,7 @@ nav a:hover {
   transition: background-color 0.3s ease;
 }
 
-.portfolio-item a:hover {
+.portfolio-item a:hover, .experience-item a:hover {
   background-color: #2c3e50;
 }
 
@@ -98,6 +107,7 @@ nav a:hover {
   font-size: 14px;
   color: #4CAF50;
 }
+
 .image-container {
   background-color: #e1f4ff;
   padding: 10px;
@@ -105,35 +115,6 @@ nav a:hover {
 
 #phone:hover {
   cursor: pointer;
-}
-
-#contact {
-  background-color: #e1f4ff;
-}
-
-#about {
-  background-color: #e1f4ff;
-}
-
-#education {
-  background-color: #e1f4ff;
-}
-
-#skills {
-  background-color: #e1f4ff;
-}
-
-#portfolio {
-  background-color: #e1f4ff;
-}
-
-#achievements {
-  background-color: #e1f4ff;
-}
-
-.image-container {
-  background-color: #e1f4ff;
-  padding: 10px;
 }
 
 .buttona {
@@ -152,74 +133,21 @@ nav a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.achievement-item {
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  overflow: hidden;
-  padding: 20px;
-}
-
 button:hover {
   background-color: #f0f0f0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.about-item {
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  overflow: hidden;
-  padding: 20px;
-}
-
-.education-item {
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  overflow: hidden;
-  padding: 20px;
-}
-
-.portfolio-item {
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  overflow: hidden;
-  padding: 20px;
-}
-
-.contact-item {
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  overflow: hidden;
-  padding: 20px;
-  text-align: center;
-}
-
-.skill-item {
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  overflow: hidden;
-  padding: 20px;
-}
-
-.achievement-item img {
+.achievement-item img, .experience-item img {
   display: block;
   margin: 0 auto;
   width: 50%;
   height: auto;
 }
 
-.achievement-item img:hover {
+.achievement-item img:hover, .experience-item img:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-
-/*.achievement-item:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}*/
 
 a img {
   border: solid 5px #ccc;
