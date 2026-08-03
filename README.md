@@ -51,13 +51,11 @@ http://localhost:5173
 
 ## 🌐 Live Demo
 
-👉 Add your deployed website link here.
+ Add your deployed website link here.👇
 
-Example:
+Cthe portfolio website: [Live Demo](https://portfolio-1-j8sw.onrender.com)
 
-```
-https://your-portfolio.vercel.app
-```
+
 
 ## 🚀 Deployment
 
