@@ -51,9 +51,8 @@ http://localhost:5173
 
 ## 🌐 Live Demo
 
- Add your deployed website link here.👇
+Check out the live demo of the portfolio website: [Live Demo](https://portfolio-1-j8sw.onrender.com)
 
-Cthe portfolio website: [Live Demo](https://portfolio-1-j8sw.onrender.com)
 
 
 
